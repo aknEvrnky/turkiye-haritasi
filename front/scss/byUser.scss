@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../font/HelveticaCondensed.woff2') format('woff2'), url('../font/HelveticaCondensed.woff') format('woff'); font-weight: 900; font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../font/HelveticaCondensedBold.woff2') format('woff2'), url('../font/HelveticaCondensedBold.woff') format('woff'); font-weight: bold; font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro';
+    src: url('../font/HelveticaLTPro.woff2') format('woff2'), url('../font/HelveticaLTPro.woff') format('woff');
+    font-weight: 500; font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro';
+    src: url('../font/HelveticaLTPro.woff2') format('woff2'), url('../font/HelveticaLTPro.woff') format('woff'); font-weight: normal; font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro Bold';
+    src: url('../font/HelveticaLTPro.woff2') format('woff2'), url('../font/HelveticaLTPro.woff') format('woff'); font-weight: bold; font-style: bold;
+}
+
+
+
+ 
+ .city-color  {
+     & > path {
+         fill:#EBE8E5;
+         cursor: pointer;
+         transition: all linear .3s;
+     }
+    &:hover > path {
+        fill: #d4d2d0;
+    }
+
+    &.active > path {
+        fill: #49992C;
+
+    }
+}
+
+
+#harita_zemini text {
+    font-size:10px
+}
+
+.svg-turkiye-haritasi {
+    margin: 0 auto; text-align: center;  font-size:10px;  color:#fff; position:relative
+}
+
+text {
+    font-size: 14px;
+    font-weight: bold;
+    stroke: #fff;
+    stroke-width: .05px;
+    fill: #000;
+}
